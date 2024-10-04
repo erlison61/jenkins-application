@@ -1,0 +1,6 @@
+FROM nginx:alpine
+
+COPY /jenkins_home/workspace/project-test/dist /usr/share/nginx/html
+
+EXPOSE 80
+
